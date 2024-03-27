@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Box, Table, Thead, Tbody, Tr, Th, Td, TableContainer, Heading } from "@chakra-ui/react";
-
 
 const transactions = [
   {
@@ -30,7 +29,6 @@ const transactions = [
 ];
 
 const Index = () => {
-  
   return (
     <Box p={4}>
       <Heading as="h1" size="xl" mb={4}>
